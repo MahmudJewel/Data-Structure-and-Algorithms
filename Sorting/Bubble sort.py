@@ -1,4 +1,4 @@
-def bubbleSort(arr):
+def bubble_sort(arr):
     l=len(arr)
     for i in range(l-1):
         for j in range(l-1):
@@ -9,5 +9,5 @@ def bubbleSort(arr):
 
 n=list(map(int, input('Enter the numbers that will be sorted\n').strip().split()))
 print('The arrays are before sorting => ',n)
-n=bubbleSort(n)
+n=bubble_sort(n)
 print('The arrays are after sorting  => ',n)

@@ -1,4 +1,4 @@
-def selectionSort(data):
+def selection_sort(data):
     l=len(data)
     for i in range(l):
         min_index=i
@@ -10,5 +10,5 @@ def selectionSort(data):
 
 data=list(map(int, input('Enter the numbers that will be sorted\n').strip().split()))
 print('The arrays are before sorting => ',data)
-data=selectionSort(data)
+data=selection_sort(data)
 print('The arrays are after sorting  => ',data)
