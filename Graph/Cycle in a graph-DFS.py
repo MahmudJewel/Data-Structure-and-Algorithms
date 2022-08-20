@@ -47,7 +47,6 @@ print('Graph is ==> ', graph)
 
 visited = set()  # used as stack
 # Driver Code
-cycle = 0
 result = dfs(graph, visited, root)
 print('Result==> ', result)
 if result:
