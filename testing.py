@@ -1,2 +1,2 @@
-lst=[1,2,3,4]
-print(*lst)
+st='abcdefghijkl'
+print(st[1:]+st[0])
